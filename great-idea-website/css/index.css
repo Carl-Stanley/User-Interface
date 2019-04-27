@@ -69,6 +69,24 @@ h1, h2, h3, h4, h5 {
 
 /* Top NAV bar list items*/
 
+/* Using body tag text align */
+html, body {
+	height: 100%;
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+body {
+	display: table-cell;
+	text-align: left;
+	align-content: center;
+	vertical-align: middle;
+}
+
+/* Put top nav in a list to force top row, and alignment */
+
 ul li {
 
 	display: inline;
@@ -101,18 +119,18 @@ nav ul a:hover {
 
 	display: inline-block;
 	align-items: baseline;
-	width: 12%;
-	height: 12%;
-	
+	width: 150px;
+	height: auto;
+		
 }
 /* Get Started Link */
 
 .gStarted {
 
-	padding: 10px 50px 10px 50px;
+	padding: 5px 25px 5px 25px;
 	background: white;
 	border: 1px solid black;
-	margin: 10px;
+	margin: 0px;
 	border-radius: 1px;
 	display: inline-block;
 	color: black;
@@ -135,8 +153,7 @@ nav ul a:hover {
 /* Inv on Demand Heading */
 
 h2 {
-	font-size: 70px;
-	margin-top: 100px;
+	font-size: 60px;
 	display: inline;
 
   }
@@ -146,54 +163,175 @@ h2 {
 h1 {
 
 	display: block;
+	text-align: left;
 
 }
 /* Code snippet circle image */
 .img1 {
 
 	display:inline-block;
-	width: 140%;
+	width: 80%;
 	height: auto;  
+   
 }
 
 /* Code Snippet rectangular image*/
 .middle-img {
 
 	display: block;
-	width: 50%;
-	height: auto;  
-
+	width: 800px;
+	height: 150px; 
+	 
+	
 }
 
 /* Spans Man*/ 
 
+/* Inv On Demand */
 span.a {
 	display: inline-block;
-	width: 600px;
+	width: 400px;
 	height: Auto;
-	padding: 5px;
+	padding: 0px;
 	border: 90px solid white; 
 	text-align: center;  
 		
 }
+
+/* Cicular logo*/
 
 span.b {
 	display: inline-block;
 	width: 400px;
 	height: auto;
-	padding: 5px;
-	border: 30px  solid white; 
+	padding: 0px;
+	border: 25px  solid white; 
 	text-align: center;    
 		
 }
+
+/* Text in span bottom Paragraphs */
 span.c {
 	display: inline-block;
-	width: 300px;
-	height: Auto;
-	padding: 5px;
-	border: 90px solid white; 
-	text-align: center;  
+	width: 380px;
+	height: auto;
+	padding: 0px;
+	border: 1px solid white; 
+	text-align: left; 
+	font-size: 14px; 
+	
+}
+/* Text in span Paragraphs */
+span.d {
+	display: inline-block;
+	width: 380px;
+	height: auto;
+	padding: 5px 0px 5px 20px;
+	border: 0px  solid white; 
+	text-align: left;    
+	font-size: 14px; 	
+}
+
+/* Text in span bottom Paragraphs */
+span.e {
+	display: inline-block;
+	width: 250px;
+	height: auto;
+	padding: 0px;
+	border: 1px solid white; 
+	text-align: left; 
+	font-size: 14px; 
+}
+/* Text in span Paragraphs */
+span.f {
+	display: inline-block;
+	width: 250px;
+	height: auto;
+	padding: 0px;
+	border: 1px  solid white; 
+	text-align: left;    
+	font-size: 14px; 	
+}
+
+span.g {
+	display: inline-block;
+	width: 500px;
+	height: auto;
+	padding: 0px;
+	border: 0px solid white; 
+	text-align: left; 
+	font-size: 14px; 
+	margin: 0px;
+	box-sizing: border-box;
+	
 }
 
 
+p {
+
+	text-align: left;
+   
+  
+}
+
+.p1 {
+
+	text-align: left;
+   
+
+}
+
+
+footer {
+
+	font-size: 12px;
+	text-align: center;
+	
+	
+
+}
+
+/* bottom DIV with all P and text */
+
+.divMiddle {
+	
+  display: inline-block;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	border-left-color: white;
+	border-right-color: white;
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+/* The Div with the INV text and round blob of code */
+
+.divTop {
+	
+	
+  display: inline-block;
+	border-width:0px;
+	border-style:solid;
+	border-color:white;
+	border-left-color: white;
+	border-right-color: white;   
+	box-sizing: border-box;
+	margin: 0px;
+
+}
+
+.divBottom {
+	
+	display: inline-block;
+  text-align: left;
+	box-sizing: border-box;	
+	margin: 0px;
+}
+
+footer {
+
+	text-align: center;
+
+}
 
